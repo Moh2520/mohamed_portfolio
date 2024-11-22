@@ -7,17 +7,34 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Ada</h1>
+        <h1 className={styles.title}>Hi, My name is Mohamed</h1>
         <p className={styles.description}>
-          I'm a full-stack developer with 5 years of experience using React and
+          I'm a software engineer with previous experience using React and
           NodeJS. Reach out if you'd like to learn more!
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
-          Contact Me
-        </a>
+        <ul className={styles.links}>
+        <li className={styles.link}>
+          <a href="mailto:myemail@email.com"className={styles.contactBtn}>
+            <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+            Email</a>
+        </li>
+        <li className={styles.link}>
+          <a href="https://www.linkedin.com/myname" className={styles.contactBtn}>
+          <img
+            src={getImageUrl("contact/linkedinIcon.png")}
+            alt="LinkedIn icon"
+          />
+          linkedin</a>
+        </li>
+        <li className={styles.link}>
+          <a href="https://www.github.com/myname"className={styles.contactBtn}>
+          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+          github</a>
+        </li>
+      </ul>
       </div>
       <img
-        src={getImageUrl("hero/heroImage.png")}
+        src={getImageUrl("hero/mpic1.png")}
         alt="Hero image of me"
         className={styles.heroImg}
       />

@@ -16,7 +16,9 @@
   text-decoration: none;
   color: var(--color-text);
 }
-
+.highlight {
+  color: rgb(24, 131, 219); /* Change to your desired color */
+}
 
 .menuBtn {
   display: none;
