@@ -9,7 +9,13 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        <span className={styles.highlight}>M</span>ohamed
+        <span className={styles.highlight}>M</span>
+        <span>o</span>
+        <span>h</span>
+        <span>a</span>
+        <span>m</span>
+        <span>e</span>
+        <span>d</span>    
       </a>
       <div className={styles.menu}>
         <img

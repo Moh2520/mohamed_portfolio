@@ -16,8 +16,29 @@
   text-decoration: none;
   color: var(--color-text);
 }
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #fff;
+  display: flex;
+}
+
+.title span {
+  display: inline-block;
+  transition: all 2s ease; /* Smooth transition for hover effects */
+  cursor: pointer;
+}
+
+/* Hover Effect: Rotate, fade, and blur */
+.title span:hover,
+.title span:hover ~ span {
+  transform: rotate(20deg) translateY(-20px); /* Rotate and move upwards */
+  opacity: 0; /* Fade out */
+  filter: blur(100px); /* Increase blur */
+}
 .highlight {
-  color: rgb(24, 131, 219); /* Change to your desired color */
+  color: rgb(83, 181, 255); /* Change to your desired color */
 }
 
 .menuBtn {
@@ -33,11 +54,51 @@
   gap: 47px;
   list-style: none;
 }
-
+/* Navbar link hover effect */
 .menuItems a {
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
+  position: relative; /* Required for the underline effect */
+  overflow: hidden; /* Hides the animated underline overflow */
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.menuItems a:hover {
+  color: rgb(24, 131, 219); /* Change color on hover */
+}
+
+/* Animated underline effect */
+.menuItems a::after {
+  content: ""; /* Create a pseudo-element for the underline */
+  position: absolute;
+  bottom: -4px; /* Slightly below the text */
+  left: 0;
+  width: 0;
+  height: 3px; /* Thickness of the underline */
+  background: rgb(24, 131, 219); /* Underline color */
+  transition: width 0.3s ease-in-out; /* Smooth width expansion */
+}
+
+.menuItems a:hover::after {
+  width: 100%; /* Expand underline to full width on hover */
+}
+
+/* Mobile menu hover */
+.menuItems a {
+  font-size: 20px; /* Slightly smaller for mobile */
+}
+
+/* Optional: Animated background for hover effect */
+.menuItems a:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(24, 131, 219, 0.2),
+    rgba(24, 131, 219, 0.6)
+  );
+  background-clip: text;
+  -webkit-background-clip: text; /* Safari support */
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 830px) {
