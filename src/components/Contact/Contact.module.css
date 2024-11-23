@@ -1,4 +1,4 @@
-@import "../../vars.css";
+/* @import "../../vars.css";
 
 .container {
   color: var(--color-text);
@@ -61,4 +61,78 @@
   .links {
     align-items: center;
   }
+} */
+.container {
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+  padding: 40px;
+  margin-top: 120px;
+
+  text-align: center;
+}
+
+.text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.text .email {
+  color: #aae2e9; /* Red email link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.text .email:hover {
+  text-decoration: underline;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input,
+.textarea {
+  width: 80%;
+  max-width: 600px;
+  margin: 10px 0;
+  padding: 15px;
+  font-size: 1rem;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #ccc;
+}
+
+.textarea {
+  height: 150px;
+  resize: none;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0662f5; /* Red on hover */
+  color: #fff;
 }
