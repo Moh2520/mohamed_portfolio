@@ -1,29 +1,34 @@
 [
   {
     "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+    "organisation": "Target",
+    "startDate": "Aug, 2022",
+    "endDate": "April, 2024",
+    "experiences": ["Developed phishing detection rules with YARA", 
+                    "Used Python and Grafana to extract, visualize live data", 
+                    "Debugged HUB UI components with TypeScript"],
     "imageSrc": "history/target.png"
   },
   {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
+    "role": "Software Engineer",
+    "organisation": "Nutrisek",
+    "startDate": "May, 2022",
     "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
+    "experiences": ["Built responsive UIs with React.js, reducing bounce rates", 
+                    "Designed interactive wireframes in Figma",
+                    "Developed user interfaces with HTML, CSS, JavaScript"],
     "imageSrc": "history/nutrisek.png"
   },
   {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
+    "role": "CS Teaching Assistant",
+    "organisation": "University of Minnesota",
     "startDate": "Apr, 2020",
     "endDate": "Jun, 2020",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "Taught students in Intro to Algorithms and Data Structures",
+      "Learned to explain technical concepts better"
     ],
-    "imageSrc": "history/mintech.png"
+    "imageSrc": "history/umn.svg.png"
   }
 ]
+
