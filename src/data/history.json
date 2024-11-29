@@ -31,15 +31,15 @@
     "imageSrc": "history/umn.svg.png"
   },
   {
-    "role": "CS Teaching Assistant",
-    "organisation": "University of Minnesota",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
+    "role": "Fonder and President",
+    "organisation": "Minorities In Tech",
+    "startDate": "Apr, 2023",
+    "endDate": "May, 2024",
     "experiences": [
-      "Taught students in Intro to Algorithms and Data Structures",
-      "Learned to explain technical concepts better"
+      "Established and spearheaded MIT, a student organization dedicated to empowering minority students",
+      "Implemented a holistic approach, featuring mentorship programs, weekly interview prep workshops,"
     ],
-    "imageSrc": "history/umn.svg.png"
+    "imageSrc": "history/mintech.png"
   }
 ]
 
