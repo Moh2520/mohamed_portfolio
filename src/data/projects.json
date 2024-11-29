@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "GotNext",
+    "imageSrc": "projects/graph.png",
+    "description": "Created a sports pickup app, using UX/UI tools such as Figma and Canva",
+    "skills": ["Canva", "Figma", "UX/UI"],
+    "demo": "https://streamable.com/6urioe",
+    "source": "https://www.figma.com/proto/ImoVXOvwxtFUlo8vmXJKBL/New-Prototype%3F?node-id=0-1&t=HCMyKAmKfowGNzpl-1"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "title": "Sorting Algorithm Visulizer",
+    "imageSrc": "projects/graph.png",
+    "description": "dynamic sorting algorithm visualizer built with React and JavaScript.",
+    "skills": ["React", "Express", "Node", "JS", "Git"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Moh2520/sorting_algorithm_visualizer.git"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Stock Price App",
+    "imageSrc": "projects/graph.png",
+    "description": "A stock price tracking app built with Python, providing real-time data,.",
+    "skills": ["Python", "Streamlit", "Git"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Moh2520/stock_price_app.git"
   }
 ]

@@ -5,7 +5,7 @@
     "startDate": "Aug, 2022",
     "endDate": "April, 2024",
     "experiences": ["Developed phishing detection rules with YARA", 
-                    "Used Python and Grafana to extract, visualize live data", 
+                    "Used Python and Grafana Developed phishing detection rules with YARA to extract, visualize live data", 
                     "Debugged HUB UI components with TypeScript"],
     "imageSrc": "history/target.png"
   },
@@ -18,6 +18,17 @@
                     "Designed interactive wireframes in Figma",
                     "Developed user interfaces with HTML, CSS, JavaScript"],
     "imageSrc": "history/nutrisek.png"
+  },
+  {
+    "role": "CS Teaching Assistant",
+    "organisation": "University of Minnesota",
+    "startDate": "Apr, 2020",
+    "endDate": "Jun, 2020",
+    "experiences": [
+      "Taught students in Intro to Algorithms and Data Structures",
+      "Learned to explain technical concepts better"
+    ],
+    "imageSrc": "history/umn.svg.png"
   },
   {
     "role": "CS Teaching Assistant",

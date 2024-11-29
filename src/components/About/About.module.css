@@ -2,7 +2,7 @@
 
 .container {
   position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
+  background-color: rgba(61, 137, 204, 0.6);
   border-radius: 15px;
   padding: 73px;
   margin-top: 129px;
@@ -15,18 +15,23 @@
   color: var(--color-text);
   font-size: 35px;
   font-weight: 700;
+  padding-bottom: 20px;
   letter-spacing: 1.75px;
   text-transform: uppercase;
 }
 
 .content {
+  color: aliceblue;
+  font-size: large;
+  font-weight: 500;
+  font-family: var(--font-roboto);
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .aboutImage {
-  width: 35%;
+  width: 55%;
 }
 
 .aboutItems {
@@ -46,7 +51,7 @@
   background-image: linear-gradient(
     90deg,
     rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
+    rgba(201, 21, 21, 0) 100%
   );
   background-size: 0 100%;
   background-repeat: no-repeat;
@@ -76,17 +81,16 @@
   .content {
     flex-direction: column;
   }
-
+  .imageSection {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
   .aboutImage {
-    display: none;
-  }
-
-  .aboutItems {
-    margin-top: 29px;
-  }
-
-  .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    object-fit: cover;
   }
 }
